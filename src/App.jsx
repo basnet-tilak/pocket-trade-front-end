@@ -1,9 +1,10 @@
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from './NavBar'
-import Pocket from './pages/Pocket'
-import Login from './pages/Login';
-import PageNotFound from './pages/PageNotFound';
-import SignUp from './pages/SignUp';
+import Trade from './pages/Trade';
+import BuyCrypto from './pages/BuyCrypto';
+import Market from './pages/Market';
+
 const App = () => {
   return (
     <>
@@ -11,10 +12,11 @@ const App = () => {
         <div>
           <NavBar />
           <Routes>
-            <Route path="/" element={<Pocket />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<SignUp/>} />
-            <Route path="/*" element={<PageNotFound />} />
+            <Route path="/" element={<Trade/>} />
+            <Route path="/buyctrypto" element={<BuyCrypto/>} />
+            <Route path="/market" element={<Market/>} />
+            <Route path="/" element={<Trade/>} />
+            <Route path="/" element={<Trade/>} />
           </Routes>
         </div>
       </BrowserRouter>

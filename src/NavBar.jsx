@@ -3,30 +3,35 @@ import "./styles/NavBar.css"
 const NavBar = () => {
     return (
         <>
-            <div id="topnav">
-                <nav>
-                    <ul id="nav-ul">
-                        <li>
-                            <Link to="/"> Pocket </Link>
-                        </li>
-                        <li >
-                            <div id="login-id">
-                                <Link to="/login">Log-In</Link>
-                            </div>
-                        </li>
-                        <li >
-                            <div id="signUp">
-                                <Link to="/signup">Sign UP</Link>
-                            </div>
-                        </li>
-                        <li >
-                            <div id="scan-download">
-                                <Link to="/scan-download">Scan-to-Download-App <br> IOS & Android</br></Link>
-                            </div>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+            <nav>
+                <ul >
+                    <li>
+                        <Link to="/">Trade</Link>
+                    </li>
+                    <li>
+                        <Link to="/buyctrypto">BuyCrypto</Link>
+                    </li>
+                    <li>
+                        <Link to="/market">Market</Link>
+                    </li>
+                    <li>
+                        <Link to="/future">Future</Link>
+                    </li>
+                    <li>
+                        <Link to="/squqre">Square</Link>
+                    </li>
+                    <li>
+                        <Link to="/earn">Earn</Link>
+                    </li>
+                    <li id='login-signup-id'>
+                        <div>
+                            <Link to="/login">Login</Link>
+                            <Link to="/signup">Sign Up</Link>
+                        </div>
+                    </li>
+
+                </ul>
+            </nav>
         </>
     )
 }

@@ -1,19 +1,42 @@
 
-#topnav {
-    background-color: #bdbdc9; /* Add a black background color */
-    overflow: hidden; /* Hide any overflowing content */ 
-    border-radius: 10px;
-    
-    /* this  nav-ul is inside the topnav id */
-    #nav-ul li{
-        display: inline;
-        margin-right: 8px; 
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        #login-id{
-            display: inline;
-            padding-right: 20px;  
-            float: right;
-        }  
-    }
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#login-signup-id {
+    padding-right: 139px;
+    display: inline;
+    padding-right: 2px; 
+    padding-bottom: 12px;
+    float: right;
+}
+
+/* Styling the navigation bar */
+nav {
+    background-color: #000000; /* Background color */
+    padding-top: 2px;
+    padding-bottom: 8px;
+}
+
+nav ul {
+    display: inline;
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+}
+
+nav ul li a {
+    padding: 0.5em; /* Add padding around the links */
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color */
+    font-size: x-large;
+}
+
+nav ul li a:hover {
+    background-color: #948686; /* Change background color on hover */
 }
