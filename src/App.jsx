@@ -4,6 +4,12 @@ import NavBar from './NavBar'
 import Trade from './pages/Trade';
 import BuyCrypto from './pages/BuyCrypto';
 import Market from './pages/Market';
+import Pocket from './pages/Pocket';
+import Future from './pages/Future';
+import Square from './pages/Square';
+import Earn from './pages/Earn';
+import Login from './pages/Login';
+import SignUp from './pages/SignUp';
 
 const App = () => {
   return (
@@ -12,11 +18,15 @@ const App = () => {
         <div>
           <NavBar />
           <Routes>
-            <Route path="/" element={<Trade/>} />
+            <Route path="/" element={<Pocket/>} />
             <Route path="/buyctrypto" element={<BuyCrypto/>} />
             <Route path="/market" element={<Market/>} />
-            <Route path="/" element={<Trade/>} />
-            <Route path="/" element={<Trade/>} />
+            <Route path="/trade" element={<Trade/>} />
+            <Route path="/future" element={<Future/>} />
+            <Route path="/square" element={<Square/>} />
+            <Route path="/earn" element={<Earn/>} />
+            <Route path="/login" element={<Login/>} />
+            <Route path="/signup" element={<SignUp/>} />
           </Routes>
         </div>
       </BrowserRouter>

@@ -6,7 +6,7 @@ const NavBar = () => {
             <nav>
                 <ul >
                     <li>
-                        <Link to="/">Trade</Link>
+                        <Link to="/">Pocket</Link>
                     </li>
                     <li>
                         <Link to="/buyctrypto">BuyCrypto</Link>
@@ -15,10 +15,13 @@ const NavBar = () => {
                         <Link to="/market">Market</Link>
                     </li>
                     <li>
+                        <Link to="/trade">Trade</Link>
+                    </li>
+                    <li>
                         <Link to="/future">Future</Link>
                     </li>
                     <li>
-                        <Link to="/squqre">Square</Link>
+                        <Link to="/square">Square</Link>
                     </li>
                     <li>
                         <Link to="/earn">Earn</Link>

@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #2b2929;
+    color: #fff;
 }
+
 #login-signup-id {
     padding-right: 139px;
     display: inline;
@@ -15,7 +18,6 @@
 
 /* Styling the navigation bar */
 nav {
-    background-color: #000000; /* Background color */
     padding-top: 2px;
     padding-bottom: 8px;
 }
