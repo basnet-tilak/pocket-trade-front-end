@@ -9,7 +9,7 @@ const NavBar = () => {
                         <Link to="/">Pocket</Link>
                     </li>
                     <li>
-                        <Link to="/buyctrypto">BuyCrypto</Link>
+                        <Link to="/buy">BuyCrypto</Link>
                     </li>
                     <li>
                         <Link to="/market">Market</Link>
@@ -29,7 +29,7 @@ const NavBar = () => {
                     <li id='login-signup-id'>
                         <div>
                             <Link to="/login">Login</Link>
-                            <Link to="/signup">Sign Up</Link>
+                            <Link to="/signup">Sign-Up</Link>
                         </div>
                     </li>
 
