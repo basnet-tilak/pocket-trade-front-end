@@ -1,0 +1,37 @@
+
+/* Table Styles */
+table {
+    background-color: rgb(251, 253, 255);
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px;
+    padding: 30px;
+    border-style: outset;
+  }
+  
+  /* Table Header */
+  th {
+    background-color: #ffffff;
+    color: green;
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Table Rows */
+  tr:nth-child(even) {
+    color: #ffffff;
+    background-color: #968686;
+  }
+  
+  /* Table Cells */
+  td {
+    padding: 8px;
+    border-bottom: 1px solid #d8c4c4;
+  }
+  
+  /* Hover effect on rows */
+  tr:hover {
+    background-color: #6e6565;
+  }
+  

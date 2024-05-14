@@ -1,10 +1,8 @@
 
-
-const Trade =()=>{
-    return(
-        <>
-            <h1>This is Trade page</h1>
-        </>
-    )
+const Trade = () => {
+   return(
+    <>
+    </>
+   )
 }
 export default Trade;

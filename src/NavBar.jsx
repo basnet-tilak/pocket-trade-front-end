@@ -9,7 +9,7 @@ const NavBar = () => {
                         <Link to="/">Pocket</Link>
                     </li>
                     <li>
-                        <Link to="/buy">BuyCrypto</Link>
+                        <Link to="/buyctrypto">BuyCrypto</Link>
                     </li>
                     <li>
                         <Link to="/market">Market</Link>
